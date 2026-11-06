@@ -21,7 +21,9 @@
       "Bash(python3 paper/paper.py *)",
       "Bash(python3 /home/user/moomoo-trader/paper/paper.py *)",
       "Write(//home/user/moomoo-trader/runs/**)",
-      "Edit(//home/user/moomoo-trader/runs/**)"
+      "Edit(//home/user/moomoo-trader/runs/**)",
+      "Bash(base64 -d:*)",
+      "Bash(tar xzf:*)"
     ],
     "deny": [
       "Read(//home/user/moomoo-trader/.env)",
