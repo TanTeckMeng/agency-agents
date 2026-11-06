@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__moomoo__trading_order_place",
+      "mcp__moomoo__trading_order_cancel",
+      "mcp__moomoo__trading_order_replace",
+      "mcp__moomoo__trading_order_confirm",
+      "mcp__moomoo__account_funds",
+      "mcp__moomoo__account_positions",
+      "mcp__moomoo__account_orders_active",
+      "mcp__moomoo__account_orders_detail",
+      "mcp__moomoo__account_order_fills_today",
+      "mcp__moomoo__account_trading_info",
+      "mcp__moomoo__quote_market_snapshot",
+      "mcp__moomoo__quote_stock_quote",
+      "mcp__moomoo__quote_stock_screen",
+      "mcp__moomoo__quote_cur_kline",
+      "mcp__moomoo__quote_order_book",
+      "mcp__moomoo__news_search",
+      "mcp__claude-code-remote__send_later",
+      "Bash(python3 paper/paper.py *)",
+      "Bash(python3 /home/user/moomoo-trader/paper/paper.py *)",
+      "Write(//home/user/moomoo-trader/runs/**)",
+      "Edit(//home/user/moomoo-trader/runs/**)"
+    ],
+    "deny": [
+      "Read(//home/user/moomoo-trader/.env)",
+      "Edit(//home/user/moomoo-trader/config/risk*.yaml)",
+      "Edit(//home/user/moomoo-trader/config/risk*.lock)"
+    ]
+  }
+}
