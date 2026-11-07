@@ -28,7 +28,24 @@
     "deny": [
       "Read(//home/user/moomoo-trader/.env)",
       "Edit(//home/user/moomoo-trader/config/risk*.yaml)",
-      "Edit(//home/user/moomoo-trader/config/risk*.lock)"
+      "Write(//home/user/moomoo-trader/config/risk*.yaml)",
+      "Edit(//home/user/moomoo-trader/config/risk*.lock)",
+      "Write(//home/user/moomoo-trader/config/risk*.lock)",
+      "Edit(//home/user/moomoo-trader/trader/risk_gate.py)",
+      "Write(//home/user/moomoo-trader/trader/risk_gate.py)",
+      "Edit(//home/user/moomoo-trader/.env)",
+      "Write(//home/user/moomoo-trader/.env)",
+      "Bash(*lock-risk*)",
+      "Bash(*trader.cli resume*)",
+      "Bash(python3 paper/paper.py * lock-risk*)",
+      "Bash(python3 /home/user/moomoo-trader/paper/paper.py * lock-risk*)",
+      "Bash(cd * && python3 paper/paper.py * lock-risk*)",
+      "Bash(python -m trader.cli lock-risk *)",
+      "Bash(python -m trader.cli resume *)",
+      "Bash(python3 -m trader.cli lock-risk *)",
+      "Bash(python3 -m trader.cli resume *)",
+      "Bash(.venv/bin/python -m trader.cli lock-risk *)",
+      "Bash(.venv/bin/python -m trader.cli resume *)"
     ]
   }
 }
