@@ -23,7 +23,9 @@
       "Write(//home/user/moomoo-trader/runs/**)",
       "Edit(//home/user/moomoo-trader/runs/**)",
       "Bash(base64 -d:*)",
-      "Bash(tar xzf:*)"
+      "Bash(tar xzf:*)",
+      "Bash(python3 paper/swing_live.py *)",
+      "Bash(python3 /home/user/moomoo-trader/paper/swing_live.py *)"
     ],
     "deny": [
       "Read(//home/user/moomoo-trader/.env)",
