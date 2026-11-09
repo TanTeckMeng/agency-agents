@@ -25,7 +25,15 @@
       "Bash(base64 -d:*)",
       "Bash(tar xzf:*)",
       "Bash(python3 paper/swing_live.py *)",
-      "Bash(python3 /home/user/moomoo-trader/paper/swing_live.py *)"
+      "Bash(python3 /home/user/moomoo-trader/paper/swing_live.py *)",
+      "mcp__moomoo",
+"mcp__claude-code-remote__send_later",
+"mcp__claude-code-remote__update_trigger",
+"mcp__claude-code-remote__get_trigger",
+"ArtifactData",
+"Bash(python3 paper/*)",
+"Bash(python3 /home/user/moomoo-trader/paper/*)",
+"Bash(cd /home/user/moomoo-trader*)"
     ],
     "deny": [
       "Read(//home/user/moomoo-trader/.env)",
